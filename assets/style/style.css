@@ -569,3 +569,13 @@ footer {
     padding: 30px 4%;
    }
 }
+
+@media (max-width: 768px) {
+    .skills-bar {
+        max-width: 300px;
+    }
+
+    .box {
+        max-width: 400px;
+    }
+}
