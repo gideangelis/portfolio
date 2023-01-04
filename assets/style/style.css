@@ -438,7 +438,7 @@ header {
 
 footer {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 130px;
     display: flex;
     align-items: center;
@@ -575,7 +575,7 @@ footer {
    }
 
    .portfolio-container {
-    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     grid-gap: 30px;
 }
 }
@@ -584,7 +584,7 @@ footer {
 @media (max-width: 768px) {
 
     .about {
-        margin-top: 200px;
+        margin-top: 180px;
     }
 
     .skills-bar {
@@ -592,14 +592,14 @@ footer {
     }
 
     .portfolio-container {
-        grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
         grid-gap: 30px;
     }
 
     .box {
         max-width: 400px;
         min-width: 100px;
-        width: 100vw;
+        width: 80vw;
         margin: 0 auto;
     }
 
@@ -610,14 +610,13 @@ footer {
     .box {
         max-width: 300px;
         min-width: 180px;
-        width: 80vw;
-        margin: 30px;
+        width: 80%;
     }
 
     .skills-bar {
         max-width: 300px;
         min-width: 180px;
-        width: 80vw;
+        width: 80%;
     }
 
     .footer {
