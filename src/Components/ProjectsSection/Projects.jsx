@@ -48,7 +48,7 @@ const data = [
     demo: "https://start2impact-lifescanner.netlify.app/",
     github: "https://github.com/gideangelis/javascript-advanced",
     title: "LifeScanner",
-    desc: "This is a basic counter, with increment, decrement and reset buttons.",
+    desc: "App to obtain cities' life quality score, built with Axios.js, Chart.js and Webpack.",
     tech1: "HTML",
     tech2: "CSS",
     tech3: "JavaScript",
